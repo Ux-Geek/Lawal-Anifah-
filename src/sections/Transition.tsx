@@ -4,8 +4,8 @@ export function Transition() {
   return (
     <Section className="min-h-[50vh] flex items-center justify-center">
       <WordReveal 
-        text="and sometimes... you build it" 
-        className="text-xl md:text-2xl tracking-widest uppercase text-brand-gold"
+        text="the infrastructure of leadership." 
+        className="text-xl md:text-2xl tracking-[0.3em] uppercase text-brand-gold font-sans"
       />
     </Section>
   );

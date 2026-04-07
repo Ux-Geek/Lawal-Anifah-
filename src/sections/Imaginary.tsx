@@ -7,19 +7,27 @@ export function Imaginary() {
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div className="space-y-8">
           <WordReveal 
-            text="imaginary is not a place" 
+            text="i am the bridge between" 
             className="text-4xl md:text-5xl leading-tight"
           />
           <WordReveal 
-            text="it is how you return" 
+            text="the vision and the shipping dock." 
             className="text-2xl md:text-3xl opacity-70"
             delay={0.8}
           />
-          <WordReveal 
-            text="without moving" 
-            className="text-2xl md:text-3xl opacity-70"
-            delay={1.2}
-          />
+          
+          <div className="pt-8 space-y-4">
+            <WordReveal 
+              text="i don't just manage a day." 
+              className="text-2xl md:text-3xl opacity-70 italic"
+              delay={1.5}
+            />
+            <WordReveal 
+              text="i protect a legacy." 
+              className="text-3xl md:text-4xl text-brand-gold"
+              delay={2.2}
+            />
+          </div>
         </div>
         
         <div className="flex justify-center md:justify-end">

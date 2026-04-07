@@ -16,23 +16,31 @@ export function Hero() {
         
         <div className="space-y-4">
           <WordReveal 
-            text="you don't arrive" 
-            className="text-4xl md:text-5xl lg:text-6xl leading-tight"
+            text="leadership is a lonely volume." 
+            className="text-4xl md:text-5xl lg:text-5xl leading-tight"
+          />
+        </div>
+
+        <div className="mt-12 space-y-4">
+          <WordReveal 
+            text="too many voices." 
+            className="text-2xl md:text-3xl opacity-60"
+            delay={1}
           />
           <WordReveal 
-            text="you remember" 
-            className="text-4xl md:text-5xl lg:text-6xl leading-tight"
-            delay={0.5}
+            text="too little time." 
+            className="text-2xl md:text-3xl opacity-60"
+            delay={1.5}
           />
         </div>
         
         <motion.div 
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ delay: 1.5, duration: 1.5 }}
-          className="mt-24 text-brand-gold/60 italic"
+          transition={{ delay: 2.5, duration: 1.5 }}
+          className="mt-24 text-brand-gold italic text-xl md:text-2xl"
         >
-          something in you never left
+          you need a filter.
         </motion.div>
       </div>
     </Section>
