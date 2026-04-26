@@ -1,14 +1,9 @@
 import { motion } from "motion/react";
 import { Section } from "../components/Layout";
 import { CheckCircle2 } from "lucide-react";
+import { expertise, experience } from "../data/portfolio";
 
 export function Bridge() {
-  const expertise = [
-    { title: "Logistics Mastery", desc: "Coordinating end-to-end waybills for global exports. Turning bottlenecks into port-bound flow." },
-    { title: "Financial Precision", desc: "Reconciling multi-million dollar supplier accounts. Zero margin for error. 100% accuracy." },
-    { title: "Strategic Liaison", desc: "The primary pulse between the warehouse, quality control, and the executive suite." }
-  ];
-
   return (
     <Section dark className="!justify-start">
       <div className="space-y-16">
@@ -41,7 +36,7 @@ export function Bridge() {
             <div className="border-l border-brand-gold/20 pl-6 space-y-4">
               <div>
                 <h4 className="text-brand-white text-xl">The Experience</h4>
-                <p className="text-brand-gold/60 text-sm font-sans">Famarish Multi Service Global · 2021 — 2026</p>
+                <p className="text-brand-gold/60 text-sm font-sans">{experience.company} · {experience.period}</p>
               </div>
             </div>
 

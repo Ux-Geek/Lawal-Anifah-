@@ -1,5 +1,6 @@
 import { Section, WordReveal } from "../components/Layout";
 import { TiltCard } from "../components/TiltCard";
+import { imaginaryText } from "../data/portfolio";
 
 export function Imaginary() {
   return (
@@ -7,23 +8,23 @@ export function Imaginary() {
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div className="space-y-8">
           <WordReveal 
-            text="i am the bridge between" 
+            text={imaginaryText.bridge}
             className="text-4xl md:text-5xl leading-tight"
           />
           <WordReveal 
-            text="the vision and the shipping dock." 
+            text={imaginaryText.vision} 
             className="text-2xl md:text-3xl opacity-70"
             delay={0.8}
           />
           
           <div className="pt-8 space-y-4">
             <WordReveal 
-              text="i don't just manage a day." 
+              text={imaginaryText.manage} 
               className="text-2xl md:text-3xl opacity-70 italic"
               delay={1.5}
             />
             <WordReveal 
-              text="i protect a legacy." 
+              text={imaginaryText.legacy} 
               className="text-3xl md:text-4xl text-brand-gold"
               delay={2.2}
             />
